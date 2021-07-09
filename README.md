@@ -19,4 +19,5 @@ Download your custom Css and add the correct path to the css file. 7
   font-family: "SofiaPro";
   font-weight: normal;
   src: url("./fonts/sofia__pro.otf");
-}```
+}
+```
