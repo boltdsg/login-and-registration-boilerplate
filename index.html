@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Boostrap Css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Simple Login & Registration Screen</title>
+
+    
+  </head>
+  <body>
+    <div className="container">
+      <div className="auth__wrapper">
+        <div className="auth__container">
+          <div className="auth__logo">
+            <img src="/images/logo.png" alt="Messenger" />
+          </div>
+
+          <div className="auth__input__wrapper">
+            <div className="auth__login">
+              <p>Login to access Chat</p>
+              <form>
+                <div className="form__input">
+                  <input type="email" placeholder="Enter your email" />
+                </div>
+                <div className="form__input">
+                  <input type="password" placeholder="Enter your password" />
+                </div>
+
+                <button type="submit">Login</button>
+              </form>
+            </div>
+
+            <div className="auth__register">
+              <p>Register to access Chat</p>
+              <form>
+                <div className="form__input">
+                  <input type="email" placeholder="Enter your email" />
+                </div>
+
+                <div className="form__input">
+                  <input type="password" placeholder="Enter your password" />
+                </div>
+                <div className="form__input">
+                  <input type="password" placeholder="Confirm Your password" />
+                </div>
+
+                <button type="submit">Register</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+/* Custom Font */
+@font-face {
+  font-family: "SofiaPro";
+  font-weight: normal;
+  src: url("./fonts/sofia__pro.otf");
+}
+
+/* Authentication Screen */
+.auth__wrapper {
+  background-color: #f5f6fa;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.auth__container {
+  width: 60%;
+  margin: auto;
+  padding-top: 63px;
+}
+
+.auth__login,
+.auth__register {
+  margin-top: 50px;
+}
+
+.auth__wrapper p {
+  font-size: 14px;
+  font-family: SofiaPro;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.auth__input__wrapper {
+  display: grid;
+  grid-template-columns: 40% 50%;
+}
+
+.auth_-wrapper form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth__wrapper input {
+  padding: 10px 14px;
+  background-color: #fff;
+  border: unset;
+  border-radius: 2px;
+  margin: 10px 0px;
+}
+
+.auth__wrapper input::placeholder {
+  font-size: 14px;
+  font-family: SofiaPro;
+  color: #000;
+}
+
+.auth__login {
+  border-right: 7px solid #2ca5e0;
+}
+
+.auth__register {
+  padding-left: 45px;
+}
+
+.auth__wrapper button {
+  padding: 8px 29px;
+  background-color: #2ca5e0;
+  border: unset;
+  color: #fff;
+  font-size: 14px;
+  font-family: SofiaPro;
+  margin-top: 10px;
+}
