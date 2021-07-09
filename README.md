@@ -14,7 +14,7 @@ This is a simple boilerplate for authentication screen. It contains both login f
 ## What you should do
 Download your custom Css and add the correct path to the css file. 7
 
-```
+```css
 @font-face {
   font-family: "SofiaPro";
   font-weight: normal;
